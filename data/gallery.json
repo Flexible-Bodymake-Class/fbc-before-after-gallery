@@ -1,0 +1,89 @@
+{
+  "updated": "2026-07-07T16:00:00+09:00",
+  "entries": [
+    {
+      "id": "20260707-001",
+      "nickname": "Mika",
+      "ageGroup": "40代",
+      "duration": "5ヶ月",
+      "themes": ["土台編", "姿勢"],
+      "concern": "反り腰とぽっこりお腹が気になっていました",
+      "memberMessage": "毎日10分でも続けることを意識したら、体が少しずつ変わっていきました。鏡で立ち姿を見るのが、前より楽しみになっています。",
+      "taichiMessage": "よく続けてこられましたね。土台となる姿勢が整ってきているのが、写真からも伝わってきます。",
+      "beforeImage": "images/20260707-001-before.svg",
+      "afterImage": "images/20260707-001-after.svg",
+      "combinedImage": null,
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "id": "20260705-002",
+      "nickname": "Yuki",
+      "ageGroup": "30代",
+      "duration": "8ヶ月",
+      "themes": ["ダウンドッグ・前屈"],
+      "concern": "床に手がつかないほど、体が硬いと感じていました",
+      "memberMessage": "はじめはダウンドッグの姿勢で指先も届きませんでした。焦らず続けるうちに、前屈で手のひらが床につくようになりました。",
+      "taichiMessage": "少しずつ動く範囲を広げてこられた成果ですね。無理のない積み重ねが、実を結んでいます。",
+      "beforeImage": "images/20260705-002-before.svg",
+      "afterImage": "images/20260705-002-after.svg",
+      "combinedImage": null,
+      "publishedAt": "2026-07-05"
+    },
+    {
+      "id": "20260703-003",
+      "nickname": "Naomi",
+      "ageGroup": "50代",
+      "duration": "1年2ヶ月",
+      "themes": ["スワン", "姿勢"],
+      "concern": "肩まわりの重さと、猫背が気になっていました",
+      "memberMessage": "スワンのポーズで胸を開く感覚を覚えてから、朝の動き出しが少し軽くなりました。呼吸も深くなった気がしています。",
+      "taichiMessage": "一年以上、丁寧に体と向き合ってこられましたね。胸の開き方が、写真からもよく伝わってきます。",
+      "beforeImage": "images/20260703-003-before.svg",
+      "afterImage": "images/20260703-003-after.svg",
+      "combinedImage": null,
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "id": "20260701-004",
+      "nickname": "Sae",
+      "ageGroup": "40代",
+      "duration": "4ヶ月",
+      "themes": ["ブリッジ", "ボディメイク"],
+      "concern": "後ろ姿に、なんとなく自信が持てずにいました",
+      "memberMessage": "ブリッジの動きでお尻や背中を意識するようになってから、後ろ姿の印象が少し変わった気がしています。",
+      "taichiMessage": "ご自身の変化に気づけるのは、続けてきた証ですね。後ろ姿にも、丁寧な積み重ねが表れています。",
+      "beforeImage": "images/20260701-004-before.svg",
+      "afterImage": "images/20260701-004-after.svg",
+      "combinedImage": null,
+      "publishedAt": "2026-07-01"
+    },
+    {
+      "id": "20260628-005",
+      "nickname": "Haruko",
+      "ageGroup": "60代以上",
+      "duration": "3ヶ月",
+      "themes": ["習慣化"],
+      "concern": "何を始めても、いつも三日坊主で終わっていました",
+      "memberMessage": "短い時間から始めたことで、生活の中に自然と運動が入ってきました。今は続けること自体が心地よいです。",
+      "taichiMessage": "ご自身に合う続け方を見つけられましたね。習慣になったことが、何よりの変化だと思います。",
+      "beforeImage": "images/20260628-005-before.svg",
+      "afterImage": "images/20260628-005-after.svg",
+      "combinedImage": null,
+      "publishedAt": "2026-06-28"
+    },
+    {
+      "id": "20260625-006",
+      "nickname": "Rin",
+      "ageGroup": "30代",
+      "duration": "7ヶ月",
+      "themes": ["横開脚", "習慣化"],
+      "concern": "夕方になると、脚の重だるさが気になっていました",
+      "memberMessage": "寝る前に横開脚のストレッチを続けるうちに、脚のすっきり感を感じられる日が増えました。",
+      "taichiMessage": "毎日の小さな積み重ねが、体感につながってきていますね。横開脚の柔らかさも増してきました。",
+      "beforeImage": null,
+      "afterImage": null,
+      "combinedImage": "images/20260625-006-combined.svg",
+      "publishedAt": "2026-06-25"
+    }
+  ]
+}

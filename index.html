@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Before / After Gallery｜Flexible Bodymake Class</title>
+  <meta name="description" content="FBC会員のみなさんの変化の記録を集めたギャラリーです。会員向けページ。">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       1. HERO
+       日本語コピー案（採用: 案A）
+         案A（採用）: 一歩ずつの変化が、ここに集まっています。
+           理由: 静かで温かく、煽らない。「集まる」で殿堂＝晴れ舞台の空気を出せる。SPEC案がそのまま最良。
+         案B（不採用）: 続けてきた時間が、少しずつ形になっていく場所です。
+           理由: 良いが「場所です」が説明的で、ヒーローとしては散文寄り。
+         案C（不採用）: 小さな積み重ねが、確かな変化になっていきます。
+           理由: 「確かな」がわずかに結果保証寄りに読まれるリスク。回避。
+       ============================================================ -->
+  <header class="hero" role="banner">
+    <div class="hero__decor" aria-hidden="true">
+      <svg viewBox="0 0 320 420" xmlns="http://www.w3.org/2000/svg">
+        <g fill="none" stroke="#5A6B7A" stroke-width="1.2" stroke-linecap="round">
+          <path d="M60 400 C 90 300, 120 210, 150 40"/>
+          <path d="M150 130 C 120 110, 96 96, 74 78"/>
+          <path d="M150 130 C 180 108, 206 92, 232 70"/>
+          <path d="M150 205 C 122 188, 100 176, 80 158"/>
+          <path d="M150 205 C 178 186, 202 172, 226 150"/>
+          <path d="M150 280 C 126 266, 108 256, 92 240"/>
+          <path d="M150 280 C 174 264, 194 252, 214 234"/>
+        </g>
+      </svg>
+    </div>
+    <div class="hero__inner">
+      <p class="eyebrow">Flexible Bodymake Class</p>
+      <h1 class="hero__title serif">Before <span class="hero__slash">/</span> After<br>Gallery</h1>
+      <span class="hairline" aria-hidden="true"></span>
+      <p class="hero__lead"><span class="nw">一歩ずつの</span><span class="nw">変化が、</span><span class="nw">ここに</span><span class="nw">集まっています。</span></p>
+      <p class="hero__note">会員のみなさんの記録</p>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         2. 導入一文（変化の大きさより、続けたことを讃える）
+         ============================================================ -->
+    <section class="intro" aria-label="はじめに">
+      <p class="intro__text"><span class="nw">変化の大きさは、</span><span class="nw">人それぞれです。</span><br class="br-sp"><span class="nw">それでも、</span><span class="nw">続けてきた</span><span class="nw">時間は、</span><span class="nw">どれも</span><span class="nw">同じように</span><span class="nw">尊いものだと</span><span class="nw">思っています。</span><br><span class="nw">ここは、</span><span class="nw">その一つひとつの</span><span class="nw">記録を、</span><span class="nw">静かに</span><span class="nw">讃えるための</span><span class="nw">場所です。</span></p>
+    </section>
+
+    <!-- ============================================================
+         3. 新着ハイライト
+         見出し案（採用: 案A）
+           案A（採用）: 新しく仲間入りした変化
+             理由: 「仲間入り」で歓迎と所属＝晴れ舞台感が出る。煽らず祝える。
+           案B（不採用）: あたらしい記録が届きました
+             理由: 温かいが、時制が「届いた」で受動的。主役を立てる力がやや弱い。
+           案C（不採用）: 今週、仲間入りした変化
+             理由: 「今週」は更新頻度を約束してしまい運用リスク。時間軸の煽り回避のため不採用。
+         英字添え: New Arrival（会員サイト同様、日本語見出し＋英字セリフの構成）
+         ============================================================ -->
+    <section class="featured" id="featured-section" aria-labelledby="featured-heading">
+      <div class="section-head reveal">
+        <p class="section-head__en serif">New Arrival</p>
+        <h2 class="section-head__ja" id="featured-heading">新しく仲間入りした変化</h2>
+      </div>
+      <div id="featured" class="featured__slot"></div>
+    </section>
+
+    <!-- ============================================================
+         4 + 5. フィルタ + ギャラリーグリッド
+         ============================================================ -->
+    <section class="gallery-section" aria-labelledby="gallery-heading">
+      <div class="section-head reveal">
+        <p class="section-head__en serif">Gallery</p>
+        <h2 class="section-head__ja" id="gallery-heading">みんなの記録</h2>
+      </div>
+
+      <div class="filter reveal" id="filter" role="group" aria-label="テーマで絞り込む">
+        <!-- ボタンは main.js が生成 -->
+      </div>
+
+      <div id="gallery" class="gallery" aria-live="polite"></div>
+      <p id="empty" class="empty" hidden></p>
+    </section>
+
+    <!-- ============================================================
+         6. 締めCTA
+         コピー案（採用: 案A）
+           案A（採用）: あなたの変化も、ここで讃えさせてください。
+             理由: 主語が運営側で「讃えさせてください」と一歩引く姿勢＝押し売りにならず晴れ舞台を約束できる。
+           案B（不採用）: あなたの記録も、この場所に飾らせてください。
+             理由: 良いが「飾る」がやや物扱い。人を讃えるニュアンスは案Aが上。
+           案C（不採用）: 次の一歩を、あなたの記録で残しませんか。
+             理由: 行動喚起は明確だが、讃える＝晴れ舞台の温度が下がる。CTA本文はボタンで担うため見出しは案A。
+         ============================================================ -->
+    <section class="cta" aria-labelledby="cta-heading">
+      <div class="cta__inner reveal">
+        <p class="section-head__en serif">Join</p>
+        <h2 class="cta__title" id="cta-heading"><span class="nw">あなたの変化も、</span><span class="nw">ここで</span><span class="nw">讃えさせてください。</span></h2>
+        <p class="cta__lead"><span class="nw">小さな変化で</span><span class="nw">大丈夫です。</span><span class="nw">今の記録から、</span><span class="nw">始めてみませんか。</span></p>
+        <a href="#" class="btn" id="cta-form" target="_blank" rel="noopener">投稿フォームへ進む</a>
+        <p class="cta__sub"><span class="nw">まずは</span><span class="nw">気軽に</span><span class="nw">交流したい方は</span><br class="br-sp"><a href="#" class="textlink nw" id="cta-discord" target="_blank" rel="noopener">Discordのビフォーアフター部屋へ</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       7. フッター
+       ============================================================ -->
+  <footer class="footer">
+    <p class="footer__brand serif">Flexible Bodymake Class</p>
+    <p class="footer__note">このページはFBC会員向けです。</p>
+  </footer>
+
+  <!-- ギャラリーカードのテンプレート -->
+  <template id="card-template">
+    <article class="card reveal" tabindex="-1">
+      <p class="card__concern"></p>
+      <div class="card__media"></div>
+      <div class="card__meta"></div>
+      <div class="card__themes"></div>
+      <p class="card__message"></p>
+      <div class="card__taichi">
+        <img class="card__taichi-icon" src="images/common/taichi-icon.svg" alt="Taichi" width="40" height="40" loading="lazy">
+        <div class="card__taichi-body">
+          <p class="card__taichi-label">Taichiより</p>
+          <p class="card__taichi-text"></p>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

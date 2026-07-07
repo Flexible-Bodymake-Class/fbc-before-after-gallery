@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="サンプル画像">
+  <defs>
+    <linearGradient id="gc" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#EBEFF3"/>
+      <stop offset="1" stop-color="#D7E0E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#gc)"/>
+  <rect x="26" y="26" width="1148" height="748" fill="none" stroke="#5A6B7A" stroke-opacity="0.13" stroke-width="1"/>
+  <line x1="600" y1="80" x2="600" y2="720" stroke="#5A6B7A" stroke-opacity="0.16" stroke-width="1"/>
+  <text x="300" y="150" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="20" letter-spacing="8" fill="#5A6B7A" fill-opacity="0.5">SAMPLE</text>
+  <text x="900" y="150" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="20" letter-spacing="8" fill="#5A6B7A" fill-opacity="0.5">SAMPLE</text>
+  <text x="300" y="432" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="72" fill="#5A6B7A" fill-opacity="0.8">Before</text>
+  <text x="900" y="432" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="72" fill="#5A6B7A" fill-opacity="0.8">After</text>
+  <text x="600" y="702" text-anchor="middle" font-family="sans-serif" font-size="19" letter-spacing="5" fill="#5A6B7A" fill-opacity="0.45">サンプル画像</text>
+</svg>
